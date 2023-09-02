@@ -9,7 +9,7 @@ import {
     css,
     reactjs,
     //redux,
-    tailwind,
+    //tailwind,
     //nodejs,
     //mongodb,
    // git,
@@ -86,10 +86,10 @@ import {
     //   name: "Redux Toolkit",
     //   icon: redux,
     // },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     // {
     //   name: "Node JS",
     //   icon: nodejs,
