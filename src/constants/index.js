@@ -140,18 +140,18 @@ import {
         // "Inventory Management: I played a crucial role in monitoring and updating inventory levels. This involved recording stock quantities, tracking expiration dates, and ensuring that inventory data was always up-to-date to prevent overstocking or shortages.",
       ],
     },
-    {
-      title: "Software Developer",
-      company_name: "City Social Welfare and Development Office",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2016",
-      points: [
+    // {
+    //   title: "Software Developer",
+    //   company_name: "City Social Welfare and Development Office",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2016",
+    //   points: [
       
-        "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
-        // "Database Management: Responsible for designing and managing databases to store and retrieve critical data related to clients, social services provided, case histories, and program outcomes. Ensuring data security and privacy was paramount.",
-      ],
-    },
+    //     "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
+    //     // "Database Management: Responsible for designing and managing databases to store and retrieve critical data related to clients, social services provided, case histories, and program outcomes. Ensuring data security and privacy was paramount.",
+    //   ],
+    // },
     {
       title: "Software Engineering",
       company_name: "Philippine EDS Techno-Service, Inc",
