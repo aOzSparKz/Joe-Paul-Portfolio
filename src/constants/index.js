@@ -22,7 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    //threejs,
+    jps,
  
   } from "../assets";
 
@@ -214,10 +214,6 @@ import {
           name: ".Net",
           color: "blue-text-gradient",
         },
-        // {
-        //   name: "Javascript",
-        //   color: "green-text-gradient",
-        // },
         {
           name: "Mysql",
           color: "pink-text-gradient",
@@ -246,6 +242,28 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+    },
+
+    {
+      name: "JPs QuantumAI",
+      description:
+        "Discover the efficiency of JPs QuantumAI, an article summarizer designed to simplify your reading. Transform lengthy articles into clear and concise summaries effortlessly with JPs QuantumAI.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jps,
+      source_code_link: "https://jps-quantum-ai.netlify.app/",
     },
   ];
 
