@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     jps,
+    jpsbot,
  
   } from "../assets";
 
@@ -37,10 +38,22 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+
+    // {
+    //   id: "linkedin",
+    //   title: "LinkedIn",
+    //   source_code_link: "https://jps-quantum-ai.netlify.app/",
+    // },
+
+    {
       id: "contact",
       title: "Contact",
     },
   ];
+
   
   const services = [
     {
@@ -82,34 +95,6 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
     {
       name: "docker",
       icon: docker,
@@ -125,7 +110,6 @@ import {
       date: "March 2010 - April 2011",
       points: [
        "Database Maintenance: Responsibility was to maintain electronic databases. This involved entering, updating, and organizing various types of data relevant to the company's operations. You ensured that the databases were accurate and up-to-date.",
-      //  "Data Handling: Handling data-related tasks was a crucial aspect of your job. You were responsible for sorting and categorizing data, as well as verifying the accuracy of information before it was entered into the database.",
       ],
     },
     {
@@ -137,21 +121,8 @@ import {
       points: [
      
        "Product Information Input: Responsibility was to input and maintain accurate product information. This included details such as product names, descriptions, ingredients, nutritional facts, and pricing into databases and inventory management systems.",
-        // "Inventory Management: I played a crucial role in monitoring and updating inventory levels. This involved recording stock quantities, tracking expiration dates, and ensuring that inventory data was always up-to-date to prevent overstocking or shortages.",
       ],
     },
-    // {
-    //   title: "Software Developer",
-    //   company_name: "City Social Welfare and Development Office",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2016",
-    //   points: [
-      
-    //     "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
-    //     // "Database Management: Responsible for designing and managing databases to store and retrieve critical data related to clients, social services provided, case histories, and program outcomes. Ensuring data security and privacy was paramount.",
-    //   ],
-    // },
     {
       title: "Software Engineering",
       company_name: "Philippine EDS Techno-Service, Inc",
@@ -177,11 +148,7 @@ import {
       ],
     },
 
-
-
   ];
-
-
   
   const projects = [
     {
@@ -265,6 +232,36 @@ import {
       image: jps,
       source_code_link: "https://jps-quantum-ai.netlify.app/",
     },
+
+
+    {
+      name: "JPsBot-Assistant",
+      description:
+        "JPsBot-Assistant, a specialized AI-powered JPsbot, ensures a highly personalized and responsive user experience by employing scalable infrastructure, efficient load balancing, data replication, and performance optimization strategies.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "render",
+          color: "pink-text-gradient",
+        },
+
+        {
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: jpsbot,
+      source_code_link: "https://j-ps-bot-assistant.vercel.app/",
+    },
+
   ];
 
 

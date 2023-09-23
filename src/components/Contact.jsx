@@ -39,7 +39,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Joe Paul Sajot",
           from_email: form.email,
-          to_email: "moviecarier@gmail.com",
+          to_email: "joepaulsajot@gmail.com",
           message: form.message,
         },
         'u9jkgxVTwhN8siHbD'
@@ -129,6 +129,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+   
     </div>
   );
 };
