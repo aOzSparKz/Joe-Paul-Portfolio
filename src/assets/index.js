@@ -27,6 +27,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import jps from "./jps.png";
 import jpsbot from "./jpsbot.png";
+import sushiman from "./sushiman.png";
 
 
 export {
@@ -56,6 +57,7 @@ export {
   tripguide,
   jps,
   jpsbot,
+  sushiman,
 
 
 };

@@ -24,6 +24,7 @@ import {
     tripguide,
     jps,
     jpsbot,
+    sushiman,
  
   } from "../assets";
 
@@ -261,6 +262,27 @@ import {
       image: jpsbot,
       source_code_link: "https://j-ps-bot-assistant.vercel.app/",
     },
+
+
+    {
+      name: "JPsFoods",
+      description:
+        "JPsFoods is a meticulously designed, pure HTML and CSS website featuring sleek animations, lightning-fast reload times, and a user-friendly interface that immerses visitors in a captivating food journey.",
+      tags: [
+        {
+          name: "CSS3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML 5",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: sushiman,
+      source_code_link: "https://jpsfoods.netlify.app/",
+    },
+
 
   ];
 
