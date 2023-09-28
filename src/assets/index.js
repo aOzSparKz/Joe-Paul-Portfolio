@@ -30,6 +30,11 @@ import jpsbot from "./jpsbot.png";
 import sushiman from "./sushiman.png";
 
 
+import fb from "./fb.png";
+import link from "./link.png";
+import cofe from "./cofe.png";
+
+
 export {
   logo,
   backend,
@@ -58,6 +63,10 @@ export {
   jps,
   jpsbot,
   sushiman,
+
+  fb,
+  link,
+  cofe,
 
 
 };
