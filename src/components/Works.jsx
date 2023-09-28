@@ -80,10 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcase my skills to excel in data management,
-          software development, and engineering roles, highlighting my commitment to data integrity,
-          attention to detail, and my contributions to meaningful projects that address specific societal needs.
-
+         The projects I've been involved in serve as a testament to my proficiency in data management, software development and web development. They underline my unwavering commitment to maintaining data integrity, showcasing an acute attention to detail, and demonstrating my active contributions to impactful projects addressing critical societal needs. These experiences have equipped me with a comprehensive skill set and the determination to excel in this dynamic field, ensuring that any project I undertake is marked by excellence and purpose.
         </motion.p>
       </div>
 

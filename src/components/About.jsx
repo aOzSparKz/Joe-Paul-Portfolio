@@ -46,13 +46,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am an experienced software developer with expertise in various domains,
-        including frontend development, software engineering, and system analysis.
-        My skills extend to hardware integration, including sensors and robotics,
-        as well as troubleshooting both hardware and software issues.
-        Furthermore, I excel in using Microsoft Office tools such as Word, Excel,
-        and PowerPoint. I am known for my honesty, trustworthiness, and strong work ethic,
-        making me a reliable and hardworking professional.
+        <p>
+        Greetings!
+      </p>
+      <p>
+        I am a dedicated and enthusiastic frontend developer with nearly three years of hands-on experience, devoted to creating exceptional websites and web applications that leave a lasting impression. My primary focus revolves around leveraging React.js and JavaScript to transform concepts into captivating user experiences.
+      </p>
+  
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
