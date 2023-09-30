@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -95,6 +96,8 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+
+      
       </div>
     </nav>
   );
