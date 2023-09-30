@@ -4,11 +4,9 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -79,17 +77,10 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+  
   ];
   
   const experiences = [
