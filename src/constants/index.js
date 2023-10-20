@@ -15,6 +15,7 @@ import {
     jps,
     jpsbot,
     sushiman,
+    logo,
  
   } from "../assets";
 
@@ -85,7 +86,7 @@ import {
   
   const experiences = [
     {
-      title: "Computer Encoder",
+      title: "Computer Database Encoder",
       company_name: "F.F. CRUZ & CO., INC.",
       icon: starbucks,
       iconBg: "#383E56",
@@ -95,7 +96,7 @@ import {
       ],
     },
     {
-      title: "Computer Encoder",
+      title: "Data Management",
       company_name: "SOLAR SNACK FOODS, INC.",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -118,15 +119,14 @@ import {
     },
 
     {
-      title: "Software Developer (Project Base & IT Services)",
-      company_name: "City Social Welfare and Development Office",
-      icon: shopify,
+      title: "Software Developer (Project Base Programmer & IT Services)",
+      company_name: "Freelancing",
+      icon: logo,
       iconBg: "#383E56",
-      date: "June 2023- Present",
+      date: "June 2018 - Present",
       points: [
       
         "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
-        "Database Management: Responsible for designing and managing databases to store and retrieve critical data related to clients, social services provided, case histories, and program outcomes. Ensuring data security and privacy was paramount.",
       ],
     },
 
@@ -150,31 +150,35 @@ import {
           name: "css",
           color: "pink-text-gradient",
         },
+         {
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
       ],
       image: jps,
       source_code_link: "https://jps-quantum-ai.netlify.app/",
     },
-    {
-      name: "C S W D O - Centralized Management System",
-      description:
-        "An application developed to facilitate the registration of child clients into the Violation Registry of Children in Conflict with the Law.",
-      tags: [
-        {
-          name: ".Net",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Mysql",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "C S W D O - Centralized Management System",
+    //   description:
+    //     "An application developed to facilitate the registration of child clients into the Violation Registry of Children in Conflict with the Law.",
+    //   tags: [
+    //     {
+    //       name: ".Net",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Mysql",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "JPsBot-Assistant",
       description:
-        "JPsBot-Assistant, a specialized AI-powered JPsbot, ensures a highly personalized and responsive user experience by employing scalable infrastructure, efficient load balancing, data replication, and performance optimization strategies.",
+        "JPsBot-Assistant, a specialized AI-powered JPsbot, ensures a highly personalized and responsive user experience by employing scalable infrastructure, and performance optimization strategies.",
       tags: [
         {
           name: "React",

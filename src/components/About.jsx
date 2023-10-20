@@ -50,7 +50,8 @@ const About = () => {
         Greetings!
       </p>
       <p>
-        I am a dedicated and enthusiastic frontend developer with nearly three years of hands-on experience, devoted to creating exceptional websites and web applications that leave a lasting impression. My primary focus revolves around leveraging React.js and JavaScript to transform concepts into captivating user experiences.
+        I am a dedicated and enthusiastic Software Developer, devoted to creating exceptional Projects and Web Applications that leave a lasting impression. My primary focus revolves around leveraging React.js and JavaScript to transform concepts into captivating user experiences.
+      
       </p>
   
       </motion.p>
