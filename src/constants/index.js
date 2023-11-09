@@ -47,19 +47,19 @@ import {
   
   const services = [
     {
-      title: "Software Developer",
+      title: "PROGRAMMER",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "SOFTWARE DEVELOPER",
       icon: mobile,
     },
     {
-      title: "Systems Analyst",
+      title: "SYSTEMS ANALYST",
       icon: backend,
     },
     {
-      title: "Frontend Developer",
+      title: "GRAPHIC & WEB DESIGNER",
       icon: creator,
     },
   ];
@@ -107,7 +107,10 @@ import {
       date: "June 2019 - Present",
       points: [
       
-        "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
+        "Software Developer: Responsible for designing, developing, and maintaining custom software solutions to support the organization's social welfare programs and initiatives. This includes systems for case management, client tracking, and program evaluation.",
+        "Programmer: Involved in project-based programming and IT services, contributing to the development and maintenance of custom software solutions for various initiatives.",
+        "Systems Analyst: Collaborated on system analysis tasks, ensuring the efficiency and effectiveness of software solutions implemented within the organization.",
+        "Graphic & Web Designer: Played a key role in designing visually appealing and user-friendly interfaces for both graphic and web elements, enhancing the overall user experience.",
       ],
     },
    
