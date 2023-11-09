@@ -42,11 +42,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Joe Paul Sajot &nbsp;
-            <span className='sm:block hidden'>  </span>
-          </p>
+         <img src={logo} alt='logo' className='w-10 h-10 object-contain' />
+        <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+         <span className='lg:inline hidden'>Joe Paul Sajot &nbsp;</span>
+         <span className='sm:hidden'> </span>
+       </p>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

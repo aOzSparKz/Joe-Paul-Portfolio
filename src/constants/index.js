@@ -59,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: ".Net Developer",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -85,16 +85,32 @@ import {
   ];
   
   const experiences = [
+   
+    
+   
     {
-      title: "Computer Database Encoder",
-      company_name: "F.F. CRUZ & CO., INC.",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2010 - April 2011",
+      title: "Software Engineering",
+      company_name: "Philippine EDS Techno-Service, Inc",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "June 2018 - Present",
       points: [
-       "Database Maintenance: Responsibility was to maintain electronic databases. This involved entering, updating, and organizing various types of data relevant to the company's operations. You ensured that the databases were accurate and up-to-date.",
+      
+        "Design and Development: Responsibility was to design and develop wiring harness systems for various applications, such as automotive.",
       ],
     },
+    {
+      title: "Software Developer (Project Base Programmer & IT Services)",
+      company_name: "Freelancing",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "June 2019 - Present",
+      points: [
+      
+        "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
+      ],
+    },
+   
     {
       title: "Data Management",
       company_name: "SOLAR SNACK FOODS, INC.",
@@ -107,26 +123,13 @@ import {
       ],
     },
     {
-      title: "Software Engineering",
-      company_name: "Philippine EDS Techno-Service, Inc",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "June 2018 - Present",
-      points: [
-      
-        "Design and Development: Responsibility was to design and develop wiring harness systems for various applications, such as automotive.",
-      ],
-    },
-
-    {
-      title: "Software Developer (Project Base Programmer & IT Services)",
-      company_name: "Freelancing",
-      icon: logo,
+      title: "Computer Database Encoder",
+      company_name: "F.F. CRUZ & CO., INC.",
+      icon: starbucks,
       iconBg: "#383E56",
-      date: "June 2018 - Present",
+      date: "March 2010 - April 2011",
       points: [
-      
-        "Custom Software Development: Responsibility was to design, develop, and maintain custom software solutions to support the organization's social welfare programs and initiatives. This may include systems for case management, client tracking, and program evaluation.",
+       "Database Maintenance: Responsibility was to maintain electronic databases. This involved entering, updating, and organizing various types of data relevant to the company's operations. You ensured that the databases were accurate and up-to-date.",
       ],
     },
 

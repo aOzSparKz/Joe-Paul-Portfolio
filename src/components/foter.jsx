@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from "framer-motion";
 import { styles } from '../styles';
 import { fb, link, cofe, logo } from '../assets';
@@ -7,22 +7,29 @@ import StarsCanvas from './canvas/Stars';
 import { slideIn } from "../utils/motion";
 
 const Footer = () => {
-
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  useEffect(() => {
+    // Load Google AdSense script
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
 
   return (
     <footer className={styles.paddingX}>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <div className="w-full max-w-7xl mx-auto py-10 flex flex-col items-center">
         <div className="flex items-center gap-5">
+          <div className="banner-left">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="YOUR_AD_CLIENT_ID"
+              data-ad-slot="YOUR_AD_SLOT_ID_LEFT"
+              data-ad-format="auto"
+            ></ins>
+          </div>
+
           <a
             href="https://www.facebook.com/aOzSparKz"
             target="_blank"
@@ -47,8 +54,18 @@ const Footer = () => {
             rel="noopener noreferrer"
             title="Visit my LinkedIn"
           >
-            <img src={link} alt="LinkedIn" className="w-8 h-8 " />
+            <img src={link} alt="LinkedIn" className="w-8 h-8" />
           </a>
+
+          <div className="banner-right">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="YOUR_AD_CLIENT_ID"
+              data-ad-slot="YOUR_AD_SLOT_ID_RIGHT"
+              data-ad-format="auto"
+            ></ins>
+          </div>
         </div>
 
         {/* Include the StarsCanvas component */}
@@ -60,15 +77,15 @@ const Footer = () => {
           </motion.div>
         </div>
 
-           <motion.img
-      src={logo}
-      alt=""
-      className="w-20 h-20 cursor-pointer"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.10 }}
-      onClick={handleLogoClick} // Add onClick event to scroll to top
-    />
+        <motion.img
+          src={logo}
+          alt=""
+          className="w-20 h-20 cursor-pointer"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.10 }}
+          onClick={handleLogoClick}
+        />
       </div>
     </footer>
   );
