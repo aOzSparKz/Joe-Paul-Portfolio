@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           <a
-            href="https://www.facebook.com/aOzSparKz"
+            href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             title="Visit my Facebook"
